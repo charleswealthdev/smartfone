@@ -1,0 +1,222 @@
+function shows7() {
+
+output.value+=7;
+}
+
+function shows6() {
+
+output.value+=6;
+}
+
+
+
+
+
+
+
+function shows5() {
+
+output.value+=5;
+}
+
+
+function shows4() {
+
+output.value+=4;
+}
+
+
+
+function shows3() {
+
+output.value+=3;
+}
+
+
+
+function shows2() {
+
+output.value+=2;
+}
+
+
+function shows1() {
+
+output.value+=1;
+}
+
+
+
+function shows9() {
+
+output.value+=9;
+
+}
+
+
+
+function shows8() {
+
+output.value+=8;
+}
+
+
+
+function shows0() {
+
+output.value+=0;
+}
+
+function showdots() {
+
+output.value+=".";
+}
+
+
+function adds() {
+
+output.value+="+";
+}
+
+function minuss() {
+
+output.value+="-";
+}
+
+
+function divides() {
+
+output.value+="/";
+}
+
+function multiplys() {
+
+output.value+="*";
+}
+
+function equalss() {
+
+output.value=eval(output.value);
+}
+
+
+
+
+
+
+
+
+
+function show1() {
+
+output1.value+=1;
+}
+
+
+
+function show2() {
+
+output1.value+=2;
+}
+
+
+function show3() {
+
+output1.value+=3;
+}
+
+
+
+function show4() {
+
+output1.value+=4;
+}
+
+
+
+
+function show5() {
+
+output1.value+=5;
+}
+
+
+
+function show6() {
+
+output1.value+=6;
+}
+
+function show7() {
+
+output1.value+=7;
+}
+
+
+
+
+function show8() {
+
+output1.value+=8;
+}
+
+
+
+
+
+function show9() {
+
+output1.value+=9;
+
+}
+
+function show0() {
+
+output1.value+=0;
+}
+
+function showdot() {
+
+output1.value+=".";
+}
+
+
+function add() {
+
+output1.value+="+";
+}
+
+function minus() {
+
+output1.value+="-";
+}
+
+
+function divide() {
+
+output1.value+="/";
+}
+
+function multiply() {
+
+output1.value+="*";
+}
+
+
+
+
+function showpi() {
+
+output1.value=Math.PI;
+}
+
+function showbracket1() {
+
+output1.value+=")";
+}
+
+
+function equals() {
+
+output1.value=eval(output1.value);
+}

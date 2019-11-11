@@ -1,0 +1,365 @@
+#phone
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+font-size: 10px;
+}
+
+
+#dialpad
+{
+background:#117870;
+
+border: 1px solid black;
+
+height: 443px;
+
+width: 244px;
+
+}
+
+#facebook
+{
+color: black;
+outline: none;
+
+border: none;
+background-color: white;
+font-size: 10px;
+}
+
+#image
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 10px;
+
+width: 5px;
+font-size: 10px;
+
+}
+
+#whatsapp
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 5px;
+
+width: 5px;
+font-size: 10px;
+
+
+
+}   
+
+
+#instagram
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 5px;
+
+width: 5px;
+font-size: 10px;
+
+
+
+
+}#signal
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 5px;
+
+width: 5px;
+font-size: 10px;
+
+margin-left: 50px
+
+}#signal1
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 5px;
+font-size: 10px;
+
+width: 5px;
+
+margin-left: 1px
+
+}
+
+#battery
+{
+background: transparent;
+outline: none;
+font-size: 10px;
+
+
+border: none;
+color: white;
+height: 5px;
+
+width: 5px;
+
+margin-left: 1px
+
+}
+
+#user
+{
+background: #683AB7 ;
+outline: none;
+
+border: 1px solid #683AB7;
+color:#B8A5DD;
+
+border-radius: 100px;
+height: 50px;
+
+width: 50px;
+
+
+margin-left: 100px;
+
+
+margin-top: 20px
+}
+
+#div2
+{
+
+	margin-left: 100px;
+
+	border: 0px solid black;
+
+	width: 60px;
+	color: white;
+	font-size: 10px;
+	height: 20px
+}
+
+#div3
+{
+
+	margin-left: 70px;
+
+	border: 0px solid black;
+	
+	width: 140px;
+	color: white;
+	font-size: 15px;
+
+	height: 20px;
+
+	margin-top: 4px
+}
+
+
+#div4
+{
+
+	margin-left: 80px;
+
+	
+
+	width: 90px;
+	color: white;
+	font-size: 10px;
+margin-top: 4px;
+	height: 20px;
+	border: none;
+}
+
+#dialpadbox1{
+	margin-top: 130px;
+
+
+
+}
+
+#sec{
+	float: right;
+	font-size: 10px;
+	color: white;
+margin-right: 30px;
+
+}
+
+#min{
+	float: left;
+	margin-left:10px;
+	font-size: 10px;
+	color: white;
+	
+
+}
+
+#hr{
+	float: left;
+	font-size: 10px;
+	color: white;
+	margin-left: 20px;
+}
+
+#mute
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 10px;
+float: left;
+width: 35px;
+
+margin-left: 15px;
+
+
+font-size: 20px
+}
+
+
+
+#keypad
+{background: transparent;
+
+outline: none;
+
+border: none;
+color: white;
+height: 10px;
+
+width: 50px;
+
+margin-left: 50px;
+
+float: left;
+font-size: 25px;
+}
+
+#speaker
+{
+	background: transparent;
+
+outline: none;
+border: none;
+
+color: white;
+margin-right: 15px;
+
+float: right;
+}
+
+
+
+
+#speakertext{
+color: white;
+}
+
+#addcall
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 10px;
+
+width: 50px;
+
+margin-left: 15px;
+float: left;
+}
+
+#pause
+{
+background: transparent;
+outline: none;
+
+border: none;
+color: white;
+height: 10px;
+
+width: 50px;
+float: left;
+
+margin-left: 35px;
+}
+#dialpadbox2{
+margin-top: 82px;
+
+
+}
+
+#lastphone{
+
+	margin-top: 40px;
+	margin-left: 105px;
+	outline: none;
+
+}
+
+
+#dialpadbox3{
+margin-top: 53px;
+
+}
+
+#caret
+{
+background: transparent;
+outline: none;
+
+color: white;
+float: left;
+
+margin-left: 20px;
+font-size: 15px;
+
+
+}
+
+#circle
+{
+background: transparent;
+outline: none;
+
+
+color: white;
+
+margin-left: 60px;
+font-size: 15px;
+}
+
+#square
+{
+background: transparent;
+outline: none;
+
+float: right;
+color: white;
+font-size: 15px;
+margin-right: 20px;
+
+
+}

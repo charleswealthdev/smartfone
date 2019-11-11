@@ -1,0 +1,2787 @@
+<html>
+<head>
+<title>voucher with phone</title>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="dialpad.css">
+<link rel="stylesheet" type="text/css" href="calculator1.css">
+<link rel="stylesheet" type="text/css" href="contacts.css">
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+	<script type="text/javascript" src="voucher.js"></script>
+	<script type="text/javascript" src="phone.js"></script>
+	<script type="text/javascript" src="calculator1.js"></script>
+</head>
+
+<body>
+<style type="text/css">
+
+#vouchercontainer
+{height: 400px;
+background-image:url('satellite.jpg') ;
+background-position:center;
+background-size:cover;
+border: 5px solid #CA2355;
+
+/*#597492*/
+}
+
+.displayboxanimateclass{
+background-color: darkblue;
+
+}
+
+#phone1{
+float: left;
+margin-left: 100px;
+
+}
+
+
+
+#phone2{
+float: right;
+margin-right: 100px;
+
+}
+
+#smartphone{ 
+height: 485px;
+width: 255px;
+border:4px solid #14234C;
+/*border-radius: 4px;
+*/border-bottom: 2px solid #14234C;
+border-radius: 15px;
+
+}
+
+
+#smartphonep2{ 
+height: 485px;
+width: 255px;
+border:4px solid #14234C;
+border-radius: 8px;
+border-bottom: 2px solid #14234C;
+border-radius: 15px;
+
+}
+/*#00020C
+*/#smartphoneinside{
+height: 448px;
+width: 250px;
+border:3px solid #CA2355;
+border-radius: 2px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+background-image: url('charles.jpg');
+background-position: center;
+background-size: cover;
+
+
+}
+
+
+
+/*#00020C
+*/#smartphoneinsidep2{
+height: 448px;
+width: 250px;
+border:2px solid white;
+border-radius: 8px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+background-image: url('charles.jpg');
+background-position: center;
+background-size: cover;
+
+
+}
+
+#smartphoneinside2{
+height: 447px;
+width: 245px;
+background-image: url('advatlionel.jpg');
+background-position: center;
+background-size: cover;
+opacity: 1;
+
+
+}
+
+
+#poweroffpage{
+height: 447px;
+width: 245px;
+background-color: black;
+opacity: 1;
+
+
+}
+
+
+#poweronpage{
+height: 447px;
+width: 245px;
+opacity: 1;
+
+
+}
+
+
+#homebuttonbox{
+height: 30px;
+width: 249px;
+background-color: #14234C;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 7px;
+outline: none;
+}
+
+#homebutton{
+height: 30px;
+width: 30px;
+border:1px solid white;
+border-radius: 6px;
+background-color:#14234C ;
+outline: none;
+
+}
+
+
+#homebuttonp2{
+height: 30px;
+width: 30px;
+border:2px solid white;
+border-radius: 15px;
+background-color:#14234C ;
+outline: none;
+
+}
+
+#phoneuppercase{
+background-color: #14234C;
+height: 10px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+
+}
+
+
+
+#phoneuppercasep2{
+background-color: #14234C;
+height: 20px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+
+}
+#phoneuppercase2{
+background-color: #14234C;
+height: 11px;
+width: 120px;
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+
+
+}
+
+#phonecamera{
+background-color: #46485D;
+border-radius: 50px;
+height: 7px;
+width: 7px;
+
+}
+
+
+
+#phonecamerap2{
+background-color: #46485D;
+border-radius: 7px;
+height: 15px;
+width: 15px;
+
+}
+
+
+#pinhole{
+background-color: white ;
+border-radius: 50px;
+height: 2px;
+width: 2px;
+
+}
+
+#pinholep2{
+background-color: white ;
+border-radius: 50px;
+height: 2px;
+width: 2px;
+float: left;
+
+}
+
+
+#speaker{
+background-color: white;
+border-radius: 50px;
+height: 6px;
+width: 40px;
+opacity: 0.7;
+margin-bottom: 7px;
+}
+
+
+
+
+#phoneflash{
+background-color: #46485D;
+border-radius: 50px;
+height: 7px;
+width: 7px;
+margin-top: -12px;
+
+}
+
+#phoneflashp2{
+background-color: #46485D;
+border-radius: 3.5px;
+height: 7px;
+width: 7px;
+margin-top: -12px;
+
+}
+
+#pinhole2{
+background-color: white ;
+border-radius: 50px;
+height: 2px;
+width: 2px;
+
+}
+
+
+#power{
+background-color: #14234C;
+color:#E5E5F0 ;
+outline: none;
+
+
+}
+
+#power:hover{
+background-color: white;
+color: black;
+outline: none;
+
+
+}
+#menu:focus{outline: none;}
+#menu{
+
+
+	color: white;
+
+}
+
+
+
+#menubox{
+background-color:transparent;
+height: 30px;
+}
+
+#menu:hover{
+	/*background-color: black;*/
+color: white;
+height: 30px;
+border: none;
+}
+
+#menulistbox{
+height: 443px;
+width: 245px;
+
+
+}
+
+#notificationtopbox{
+height: 14px;
+width: 245px;
+opacity: 0.6;
+}
+
+#batterybar{
+height: 5px;
+margin-left: 53px;
+
+}
+
+#desktop{
+
+}
+
+#networkbar{
+margin-left: 78px;
+}
+
+
+#time{
+width: 26px;
+height: 14px;
+font-size: 9px;
+margin-left: 30px;
+
+}
+#dialpage{
+	height: 443px;
+width: 244px;
+
+}
+
+
+#ringpage{
+	height: 443px;
+width: 246px;
+
+}
+
+#ringbox{
+	height: 429px;
+width: 244px;
+background-color:lightblue; 
+z-index: -2;
+
+
+}
+
+#networkt{
+	float: left;
+	background-image: url('nett.gif');
+background-size: cover;
+background-position: center;
+
+height: 70px;
+width: 70px;
+	margin-left: 90px;
+	margin-top: 90px;
+}
+}
+
+#dialcontactpage{
+height: 3px;
+
+}
+
+
+#dialdisplay{
+height: 40px;
+width: 241px;
+border: none;
+}
+
+
+#dialdisplayp2{
+height: 40px;
+width: 241px;
+border: none;
+}
+
+#dialbutton{
+height: 50px;
+width: 50px;
+border-radius: 50px;
+outline: none;
+}
+
+
+#dialbuttonp2{
+height: 50px;
+width: 50px;
+border-radius: 50px;
+outline: none;
+}
+
+#dialclearbutton{
+height: 30px;
+width: 30px;
+border-radius: 50px;
+outline: none;
+}
+
+
+#dialclearbuttonp2{
+height: 30px;
+width: 30px;
+border-radius: 50px;
+outline: none;
+}
+
+
+#pickphone{
+background-color: darkblue;
+color: white;
+float: center;
+width: 88px;
+height: 83px;
+border-radius: 50px;
+padding-top: 10px;
+outline: none;
+border: 4px solid #CA2355;
+}
+
+
+
+
+#datebox{
+background: transparent;
+width: 230px;
+border: none;
+opacity: 0.6;
+}
+
+
+#dateboxp2{
+background: transparent;
+width: 230px;
+border: none;
+opacity: 0.6;
+}
+
+
+
+
+
+#choosesimpage{
+height: 443px;
+width: 244px;
+
+}
+
+
+
+#choosesimpagep2{
+height: 443px;
+width: 244px;
+
+}
+
+#simbox{
+width: 200px;
+height: 110px;
+margin-top: 120px;
+}
+
+
+#simboxp2{
+width: 200px;
+height: 110px;
+margin-top: 120px;
+}
+
+
+#siminbox1{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+
+
+
+
+#siminbox1p2{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+
+#siminbox1:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+
+
+#siminbox1p2:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+
+
+#siminbox2{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+
+
+
+
+#siminbox2p2{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+
+
+#siminbox2:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+
+#siminbox2p2:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+#siminbox3{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+
+
+#siminbox3p2{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+
+#siminbox3:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+#siminbox3p2:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+
+
+#siminbox4{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+
+
+#siminbox4p2{
+height: 20px;
+background: transparent;
+width: 120px;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+
+#siminbox4:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+#siminbox4p2:hover{
+opacity: 0.6;
+background-color: black;
+color: white;
+}
+
+
+#simoutput{
+width: 200px;
+height: 150px;
+margin-top: 100px;
+}
+
+
+#simoutputp2{
+width: 200px;
+height: 150px;
+margin-top: 100px;
+}
+`
+#simoutput1{
+width: 180px;
+height: 100px;
+margin-top: 10px;
+z-index: 4;
+}
+
+
+#simoutput1p2{
+width: 180px;
+height: 100px;
+margin-top: 10px;
+z-index: 4;
+}
+
+#okaybutton{
+width: 45px;
+height: 30px;
+float: right;
+background: transparent;
+}
+
+
+#okaybuttonp2{
+width: 45px;
+height: 30px;
+float: right;
+background: transparent;
+}
+
+
+#okaybutton:hover{
+width: 60px;
+height: 40px;
+background: transparent;
+background-color: black ;
+opacity: 0.5;
+border-radius: 10px;
+}
+
+
+#okaybuttonp2:hover{
+width: 60px;
+height: 40px;
+background: transparent;
+background-color: black ;
+opacity: 0.5;
+border-radius: 10px;
+}
+
+
+
+#pickbutton{
+
+width: 50px;
+height: 50px;
+border-radius: 25px;
+outline: none;
+margin-top: 150px;
+background-color: green;
+margin-left: 40%;
+z-index: 2;
+
+
+}
+
+
+#cutbutton{
+
+width: 50px;
+height: 50px;
+border-radius: 25px;
+outline: none;
+margin-top: 150px;
+background-color: red;
+margin-left: 40%;
+z-index: 2;
+
+
+}
+
+
+
+#div4p2{
+margin-left: 43%;
+width: 60px;
+
+}
+
+#hrp2{
+	float: left;
+}
+
+
+#minp2{
+float: left;
+margin-left: 5px;
+
+}
+
+#secp2{
+	float: left;
+	margin-left: 5px;
+
+}
+
+
+#speakerp2{
+float: right;
+margin-right: 30px;
+outline: none;
+background-color: transparent;
+}
+#keypadp2{
+float: left;
+margin-left:20%;
+outline: none;
+background-color: transparent;
+}
+
+#mutep2{
+float: left;
+margin-left: 30px;
+outline: none;
+background-color: transparent;
+}
+
+#addcallp2{
+float: left;
+margin-left: 30px;
+outline: none;
+background-color: transparent;
+margin-top: 40px;
+}
+
+
+
+#pausep2{
+float: left;
+margin-left: 20%;
+outline: none;
+background-color: transparent;
+margin-top: 40px;
+}
+
+
+
+#userp2{
+margin-left: 40%;
+background:url(charles.jpg);
+background-position: center;
+background-size: cover;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+
+}
+
+/*#power{
+	
+	margin-left:-13px;
+	height: 8px; 
+width: 1px;
+background-color: #14234C;
+border: none;
+
+
+}*/
+
+
+</style>
+
+	<div class="card  w-50 mx-auto img-rounded " id="vouchercontainer">
+
+		<div class="row">
+
+			<div class="col-6">
+
+				<div class="card"style="background-image:url('satellite.jpg') ;background-position:center;
+background-size:cover;background:transparent;">
+		Select product<select class="selectpicker bg-secondary text-light w-50" id="selectproduct">
+	<option selected disabled>choose</option>
+
+<option value="airtime">airtime</option>
+<option value="data">data</option>
+
+<option value="cabletv">cable tv</option>
+
+
+
+		</select>
+
+<div class="hide"id="selectnetworkbox">
+
+	Select Network<br><select class="selectpicker bg-secondary text-light w-50"id="selectnetwork" >
+	<option selected disabled>choose network</option>
+
+<option value="mtn">MTN</option>
+<option value="glo">GLO</option>
+
+<option value="airtel">AIRTEL</option>
+<option value="etisalat">ETISALAT</option>
+
+
+
+		</select></div>
+
+		<div class="hide"id="selectamountbox">
+
+		Amount <br><select class="selectpicker bg-secondary text-light w-50"id="selectamount" >
+	<option selected disabled>choose amount</option>
+
+<option value="100">100</option>
+<option value="200">200</option>
+
+<option value="400">400</option>
+<option value="500">500</option>
+<option value="1000">1000</option>
+<option value="1500">1500</option>
+
+
+		</select></div>
+<div class="hide"id="selectquantitybox">
+		print Quantity <br><select class="selectpicker bg-secondary text-light w-50"id="selectquantity" >
+	<option selected disabled>choose amount</option>
+
+<option value="1">1</option>
+<option value="2">2</option>
+
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+
+
+		</select></div>
+
+<div class="hide" id="selectcable">
+Select cable<br><select class="selectpicker bg-secondary text-light w-50" >
+	<option selected disabled>choose</option>
+
+<option value="gotv">GOTV</option>
+<option value="dstv">DSTV</option>
+
+<option value="startimes">STARTIMES</option>
+
+
+
+		</select></div>
+
+<div class="hide"id="cgotv">
+		gotv<select class="selectpicker bg-secondary text-light w-50" >
+	<option selected disabled>choose</option>
+
+<option value="gstarter">starterpack</option>
+<option value="gloaded">loadedpack</option>
+
+<option value="gprenium">prenium</option>
+
+		</select></div>
+
+
+<div class="hide"id="cdstv">
+		dstv<br><select class="selectpicker bg-secondary text-light w-50" >
+	<option selected disabled>choose</option>
+
+<option value="dstarter">starterpack</option>
+<option value="dloaded">loadedpack</option>
+
+<option value="dprenium">prenium</option>
+
+		</select></div>
+
+
+		<div class="hide" id="cstar">
+
+		startimes<br><select class="selectpicker bg-secondary text-light w-50">
+	<option selected disabled>choose</option>
+
+<option value="sstarter">starterpack</option>
+<option value="sloaded">loadedpack</option>
+
+<option value="sprenium">prenium</option>
+
+		</select><br></div>
+		<button class="w-50 text-light" style="background-color:darkblue;" onclick="generate()">generate</button>
+
+</div>
+</div>
+
+<div class="col-6">
+
+	<b><div class="card  display-5 shadow"id="displaypanel">
+PIN</b>
+</div>
+		
+<b><div class="card display-5 shadow text-dark"id="displaybox"style="background:transparent;">
+
+</div></b>
+<button class="btn text-light hide"id="activatebtn1"style="background-color:darkblue;height:25px;"onclick="activate()">Activate Pin
+
+</button>
+
+<div>
+<b><div class="card display-5 shadow text-dark"id="displaybox1"style="background:transparent;">
+
+</div></b>
+<button class="btn text-light hide"id="activatebtn2"style="background-color:darkblue;height:25px;"onclick="activate1()">Activate Pin
+
+</button>
+
+</div>
+
+<b><div class="card display-5 shadow text-dark"id="displaybox2"style="background:transparent;">
+
+</div></b><button class="btn text-light hide"id="activatebtn3"style="background-color:darkblue;height:25px;"onclick="activate2()">Activate Pin
+
+</button>
+
+
+
+<b><div class="card display-5 shadow text-dark"id="displaybox3"style="background:transparent;">
+
+</div></b><button class="btn text-light hide"id="activatebtn4"style="background-color:darkblue;height:25px;"onclick="activate3()">Activate Pin
+
+</button>
+
+
+<b><div class="card display-5 shadow text-dark"id="displaybox4"style="background:transparent;">
+
+</div></b><button class="btn text-light hide"id="activatebtn5"style="background-color:darkblue;height:25px;"onclick="activate4()">Activate Pin
+
+</button>
+
+
+
+<b><div class="card display-5 shadow hide"id="displayboxdate">
+
+</div></b>
+	
+
+<div class="card display-5 text-primary shadow hide"id="displayboxanimate">
+
+PIN	GENERATION SUCCESSFUL
+
+</div>
+
+
+
+
+<button class="btn text-light"style="background-color:darkblue;height:25px;"onclick="print()">Print Card
+
+</button>
+
+
+</div>
+
+</div>
+
+
+
+	</div>
+
+<button class="card"id="pickphone">pick smartphone</button>
+
+
+
+
+<div id="phone1">
+
+
+<div  class="card mx-auto img-rounded hide"id="smartphone">
+
+
+
+<div  class="card img-rounded"id="smartphoneinside">
+
+<div  class="card img-rounded"id="smartphoneinside2">
+
+
+
+
+<div class="card  shadow"id="phoneuppercase">
+	
+</div>
+
+
+<div class="card mx-auto shadow"id="phoneuppercase2">
+<div class="card shadow"id="phonecamera">
+<div class="card shadow mx-auto"id="pinhole">
+
+
+</div>
+
+</div>
+
+<div class="card shadow mx-auto"id="speaker">
+
+
+</div>
+
+
+<div class="card shadow ml-auto"id="phoneflash">
+
+<div class="card shadow mx-auto"id="pinhole2">
+
+
+</div>
+
+</div>
+</div>
+
+
+<div class="card display-4 img-rounded mt-5 text-light mx-auto"id="datebox"></div>
+
+
+
+</div>
+
+
+
+<div class="card shadow hide"id="menulistbox">
+
+
+<div class="card shadow"id="notificationtopbox">
+
+	<div class="row">
+
+<div class="col-2">
+
+<div class="fa fa-desktop" id="desktop"></div></div>
+
+
+
+
+<div class="col-2">
+
+<div class="fa fa-bell-o" id="ringbar"></div>
+</div>
+
+
+<div class="col-2">
+
+<div class="fa fa-signal" id="networkbar"></div>
+
+</div>
+
+
+
+
+
+
+<div class="col-2">
+
+<div class="fa fa-battery-full" id="batterybar"></div>
+</div>
+
+
+
+<div class="col-2" id="timecol">
+
+<div class="card" id="time"onload="clock()"></div>
+</div>
+
+</div>
+
+</div><br>
+
+<div class="card shadow" id="menulist">
+
+<div class="row">
+
+
+<div class="col-4">
+
+<button class="fa fa-phone" id="maindialbutton">  </button>
+
+</div>
+
+
+<div class="col-4">
+
+
+<button class="fa fa-address-book-o"id="contactbutton">  </button>
+
+</div>
+
+
+
+
+<div class="col-4">
+
+<button class="fa fa-envelope"id="envelope1">  </button>
+
+
+</div>
+
+<br><br>
+<div class="col-4">
+
+<button class="fa fa-calculator bg-primary shadow rounded" id="calculator">  </button>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+ 
+
+
+
+<div class="card shadow hide"id="dialpage">
+
+<div class="card shadow"id="dialcontactpage"></div>
+
+
+
+<div class="card shadow"id="dialbox">
+	
+
+
+	<h5><input type="text" class="shadow mx-auto"id="dialdisplay" ></h5>
+<button class="fa fa-window-close ml-auto"id="dialclearbutton"onclick="del()"></button>
+
+<div class="card">
+
+<div class="row text-info display-4">
+<div class="col-4">
+	<button class="border-0 bg-light" value="1"onclick="clickdigit('1')">1</button>
+
+</div>
+
+<div class="col-4">
+<button class="border-0 bg-light" value="2"onclick="clickdigit('2')">2</button>
+
+</div>
+
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="3"onclick="clickdigit('3')">3</button>
+
+
+</div>
+
+
+
+</div><br>
+
+
+<div class="row text-info display-4">
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="4"onclick="clickdigit('4')">4</button>
+
+
+</div>
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="5"onclick="clickdigit('5')">5</button>
+
+
+</div>
+
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="6"onclick="clickdigit('6')">6</button>
+
+
+</div>
+
+
+
+</div><br>
+
+
+<div class="row text-info display-4">
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="7"onclick="clickdigit('7')">7</button>
+
+
+</div>
+
+<div class="col-4">
+
+
+	<button class="border-0 bg-light"value="8"onclick="clickdigit('8')">8</button>
+
+
+</div>
+
+
+<div class="col-4">
+
+
+	<button class="border-0 bg-light"value="9"onclick="clickdigit('9')">9</button>
+
+
+</div>
+
+
+
+</div><br>
+
+
+
+
+<div class="row text-info display-4">
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="*"onclick="clickdigit('*')">*</button>
+
+
+</div>
+
+<div class="col-4">
+
+
+	<button class="border-0 bg-light"value="0"onclick="clickdigit('0')">0</button>
+
+
+</div>
+
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="#"onclick="clickdigit('#')">#</button>
+
+
+</div>
+
+</div><br>
+
+<button class="fa fa-phone mx-auto bg-success"id="dialbutton"></button>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card hide"id="choosesimpage">
+
+
+
+	<div class="card shadow mx-auto hide"id="simbox">
+
+		<div>
+choose SIM for this call
+
+<button class="card shadow mx-auto"value="MTN NG"id="siminbox1"onclick="dialnum(1),start()"onclick="start1()">
+	<span class="fa fa-signal">
+MTN NG</span>
+	</button>
+<button class="card shadow mx-auto"value="glo"id="siminbox2"onclick="dialnumglo()">
+	<span class="fa fa-signal">
+GLO NG</span>
+	</button>
+
+<button class="card shadow mx-auto"value="airtel"id="siminbox3"onclick="dialnum(3)">
+	<span class="fa fa-signal">
+AIRTEL NG</span>
+	</button>
+
+<button class="card shadow mx-auto"id="siminbox4"onclick="dialnum(4)">
+	<span class="fa fa-signal">
+ETISALAT NG</span>
+	</button>
+
+	</div></div>
+
+
+
+
+<div class="card mx-auto shadow hide"id="simoutput">
+
+<div class="card mx-auto shadow"id="simoutput1">
+
+
+
+</div>
+
+<button class="btn text-success ml-auto"id="okaybutton">ok</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="hide bg-info"id="dialpad">
+
+	<div>
+
+	<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" stle="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+
+
+</div>
+
+
+
+
+<button class="fa fa-user"  id="user"></button>
+
+
+
+
+<!-- <div id="div2"></div>
+ -->
+
+<div id="div3"></div>
+
+
+<div id="div4"class="hide">
+
+<div id="hr">0</div>:
+<div id="min"> 0</div>
+<div id="sec">0</div>
+<div id="sec1"style="visibility:hidden;">0</div>
+</div>
+
+<br><br>
+<div class="dialpadbox1">
+	
+
+	<button class="fa  fa-microphone-slash" id="mute"><br><span id="mutetext"style="font-size:10px">mute</span></button>
+
+
+<button class="fa  fa-building-o"  id="keypad"><br><span style="font-size:10px">keypad</span></button>
+
+<button class="fa  fa-volume-up" id="speaker"><br><span style="font-size:10px"id="speakertext">speaker</span></button>
+
+
+
+
+
+</div>
+<br>
+
+<div id="dialpadbox2">
+
+	<button class="fa  fa-phone-square" id="addcall"><br><p style="font-size:10px">Add call</p></button>
+<button class="fa  fa-pause"  id="pause"><br><p style="font-size:10px">Hold</p></button>
+
+</div>
+
+
+<br>
+
+
+	<div><button class="btn btn-danger fa fa-phone shadow" id="lastphone"onclick="stop()"></button></div>
+
+
+<!-- <button onclick="stops()"id="stop">stop</button> -->
+<div class="mb-auto"id="dialpadbox3">
+
+	<button class="fa  fa-caret-left shadow" id="caret"></button>
+
+
+	<button class="fa  fa-circle-o shadow" id="circle"></button>
+
+	<button class="fa  fa-square-o shadow" id="square"></button>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="div1"class="hide">
+
+<div>
+
+<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" style="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+
+</div>
+
+
+
+
+
+
+
+<div>
+
+
+</div>
+
+
+<div id="basical">
+<table id="table1" cols="4" rows="6">
+	<tr>
+<td colspan="4"><input type="text" id="output"> </td>
+	</tr>
+
+<tr>
+
+<td><button class="buttonhover1" value="/" onclick="divides()">&divide;</button></td>
+<td><button class="buttonhover1"  value="*" onclick="multiplys()">&times;</button></td>
+<td><button  class="fa fa-times-circle buttonhover1"onclick="delete2()"></button></td>
+<td><button  id="scientifictoggle"class="fa fa-eye buttonhover1"></button></td>
+
+</tr>
+
+
+<tr>
+<td ><button class="buttonhover"   value="7" onclick="shows7()">7</button></td>
+<td><button class="buttonhover"  value="8" onclick="shows8()">8</button></td>
+<td><button class="buttonhover"  value="9" onclick="shows9()">9</button></td>
+<td><button class="buttonhover1"  value="-" onclick="minuss()">&minus;</button></td>
+
+
+</tr>
+
+<tr>
+<td><button class="buttonhover"  value="4" onclick="shows4()">4</button></td>
+<td><button class="buttonhover"  value="5" onclick="shows5()">5</button></td>
+<td><button class="buttonhover"  value="6" onclick="shows6()">6</button></td>
+<td ><button class="buttonhover1" value="+" onclick="adds()">&plus;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td><button class="buttonhover"  value="1" onclick="shows1()">1</button></td>
+<td><button class="buttonhover"  value="2" onclick="shows2()">2</button></td>
+<td><button class="buttonhover"  value="3" onclick="shows3()">3</button></td>
+<td rowspan="2"><button  class="buttonhover2" value="=" onclick="equalss()">&equals;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td  colspan="2"><button class="buttonhover"  value="0" onclick="shows0()">0</button></td>
+<td> <button class="buttonhover" value="." onclick="showdots()"> .</button></td>
+
+</tr>
+
+
+
+</table>
+</div>
+
+
+
+
+<table id="table2"class="hide"cols="5" rows="7">
+	<tr>
+<td colspan="5"><input type="text" id="output1"></td>
+	</tr>
+
+<tr>
+<td ><button class="buttonhover1">sin</button></td>
+<td><button class="buttonhover1">cos</button></td>
+<td><button class="buttonhover1">tan</button></td>
+<td><button class="buttonhover1">log</button></td>
+<td ><button  class="fa fa-times-circle buttonhover1"onclick="delete1()"></button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover1" value="/" onclick="divide()">&divide;</button></td>
+<td><button class="buttonhover1" value="*" onclick="multiply()">&times;</button></td>
+<td><button class="buttonhover1" value="-" onclick="minus()">&minus;</button></td>
+<td><button class="buttonhover1" value="+" onclick="add()">&plus;</button></td>
+<td><button class="buttonhover1">ln</button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover" value="7" onclick="show7()">7</button></td>
+<td><button class="buttonhover" value="8" onclick="show8()">8</button></td>
+<td><button class="buttonhover"  value="9" onclick="show9()">9</button></td>
+<td><button class="buttonhover1"  value="(" onclick="showbracket()">(</button></td>
+<td><button class="buttonhover1"  value=")" onclick="showbracket1()">)</button></td>
+
+
+</tr>
+
+
+
+
+
+<tr>
+<td ><button class="buttonhover"  value="4" onclick="show4()">4</button></td>
+<td><button class="buttonhover"  value="5" onclick="show5()">5</button></td>
+<td><button class="buttonhover"  value="6" onclick="show6()">6</button></td>
+<td><button class="buttonhover1">&radic;</button></td>
+<td><button class="buttonhover1">i</button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover"  value="1" onclick="show1()">1</button></td>
+<td><button class="buttonhover"  value="2" onclick="show2()">2</button></td>
+<td><button class="buttonhover" value="3" onclick="show3()">3</button></td>
+<td><button class="buttonhover1">^</button></td>
+<td><button class="buttonhover1 value="Math.PI" onclick="showpi()"">&pi;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td colspan="2"><button class="buttonhover" value="0" onclick="show0()">0</button></td>
+<td><button class="buttonhover" value="." onclick="showdot()">.</button></td>
+<td><button class="buttonhover1">e</button></td>
+<td><button class="buttonhover2" value="=" onclick="equals()">&equals;</button></td>
+
+
+</tr>
+
+
+
+<!-- <button id="scientifictoggle"class="fa fa-eye buttonhover1";>
+ -->
+</table>
+
+
+<div>
+
+	<div class="mt-auto">
+	<button class="fa  fa-caret-left" id="caret1"></button>
+
+	
+<button class="fa  fa-square-o shadow" id="square1"></button>
+
+<button class="fa  fa-circle-o" id="circle1"></button>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hide"id="contactcontainer">
+<div id="uppericon">
+
+
+<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" stle="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+</div>
+
+	<div  id="searchcontainer">
+<div id="oldsearchcontainer">
+
+<button class="fa  fa-reorder" id="reorder"></button>
+<button id="contact">Contacts</button>
+
+<button class="fa  fa-search"  id="search"></button>
+<button class="fa  fa-ellipsis-v"  id="ellipsis"></button>
+
+</div>
+
+<div id="searchbox"class="hide">
+<span class="fa fa-arrow-left"id="backtooldsearch"></span>
+<input type="text"class="text-white shadow" placeholder="search contact">
+</div>
+
+
+</div>
+<div id="plusdiv">
+<button class="fa  fa-plus" id="plus"></button>
+
+
+</div>
+
+<div id="lowericon">
+	<button class="fa  fa-caret-left" id="caretc"></button>
+<button class="fa  fa-circle-o" id="circlec"></button>
+
+	
+<button class="fa  fa-square-o shadow" id="squarec"></button>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="poweroffpage" class="card hide"> 
+
+
+
+
+</div>
+
+
+<div id="poweronpage" class="card hide"> 
+
+<div class="card bg-success shadow text-center"id="phonename">
+
+
+
+
+c-fone
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- <button onclick="stopfak()">red</button>
+ -->
+<div  class="card mx-auto" id="homebuttonbox">
+
+	<div class="row">
+		<div class="col-4">
+	<button class="btn shadow"onclick="power()"id="power"enabled><span class="fa fa-power-off"></span></button></div>
+	<div class="col-4">
+<button  class="card mx-auto shadow" id="homebutton">
+
+</button></div>
+
+
+<div class="col-4">
+	<div class="card shadow"id="menubox">
+	<button class="btn  shadow"id="menu"disabled>menu
+
+</button></div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="networkt"class="hide">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hide"id="phone2">
+
+
+<div  class="card mx-auto img-rounded"id="smartphonep2">
+
+
+
+<div  class="card img-rounded"id="smartphoneinsidep2">
+
+<div  class="card img-rounded"id="smartphoneinside2p2">
+
+
+
+
+<div class="card  shadow"id="phoneuppercasep2">
+	<div class="text-center"style="height:20px;margin-bottom:20px;"><b class="text-white">c-fone</b></div>
+
+
+
+</div>
+
+
+
+<!-- 
+<div class="card mx-auto shadow"id="phoneuppercase2">
+
+
+<div class="card shadow mx-auto"id="speaker">
+
+
+</div>
+
+
+<div class="card shadow ml-auto"id="phoneflashp2">
+
+<div class="card shadow mx-auto"id="pinhole2">
+
+
+
+</div>
+</div>
+
+</div>
+ -->
+<!-- <div class="card display-4 img-rounded mt-5 text-light mx-auto"id="dateboxp2"></div>
+ -->
+
+
+</div>
+
+
+
+<div class="card shadow hide"id="menulistboxp2">
+
+
+<div class="card shadow"id="notificationtopbox">
+
+	<div class="row">
+
+<div class="col-2">
+
+<div class="fa fa-desktop" id="desktop"></div></div>
+
+
+
+
+<div class="col-2">
+
+<div class="fa fa-bell-o" id="ringbar"></div>
+</div>
+
+
+<div class="col-2">
+
+<div class="fa fa-signal" id="networkbar"></div>
+
+</div>
+
+
+
+
+
+
+<div class="col-2">
+
+<div class="fa fa-battery-full" id="batterybar"></div>
+</div>
+
+
+
+<div class="col-2" id="timecol">
+
+<div class="card" id="time"onload="clock()"></div>
+</div>
+
+</div>
+
+</div><br>
+
+<div class="card shadow" id="menulistp2">
+
+<div class="row">
+
+
+<div class="col-4">
+
+<button class="fa fa-phone" id="maindialbuttonp2">  </button>
+
+</div>
+
+
+<div class="col-4">
+
+
+<button class="fa fa-address-book-o"id="contactbuttonp2">  </button>
+
+</div>
+
+
+
+
+<div class="col-4">
+
+<button class="fa fa-envelope"id="envelope">  </button>
+
+
+</div>
+
+<br><br>
+<div class="col-4">
+
+<button class="fa fa-calculator bg-primary shadow rounded" id="calculatorp2">  </button>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+ 
+
+
+
+<div class="card shadow hide"id="dialpagep2">
+
+<div class="card shadow"id="dialcontactpagep2"></div>
+
+
+
+<div class="card shadow"id="dialboxp2">
+	
+
+
+	<h5><input type="text" class="shadow mx-auto"id="dialdisplayp2" ></h5>
+<button class="fa fa-window-close ml-auto"id="dialclearbuttonp2"onclick="delp2()"></button>
+
+<div class="card">
+
+<div class="row text-info display-4">
+<div class="col-4">
+	<button class="border-0 bg-light" value="1"onclick="clickdigits('1')">1</button>
+
+</div>
+
+<div class="col-4">
+<button class="border-0 bg-light" value="2"onclick="clickdigits('2')">2</button>
+
+</div>
+
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="3"onclick="clickdigits('3')">3</button>
+
+
+</div>
+
+
+
+</div><br>
+
+
+<div class="row text-info display-4">
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="4"onclick="clickdigits('4')">4</button>
+
+
+</div>
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="5"onclick="clickdigits('5')">5</button>
+
+
+</div>
+
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="6"onclick="clickdigits('6')">6</button>
+
+
+</div>
+
+
+
+</div><br>
+
+
+<div class="row text-info display-4">
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="7"onclick="clickdigits('7')">7</button>
+
+
+</div>
+
+<div class="col-4">
+
+
+	<button class="border-0 bg-light"value="8"onclick="clickdigits('8')">8</button>
+
+
+</div>
+
+
+<div class="col-4">
+
+
+	<button class="border-0 bg-light"value="9"onclick="clickdigits('9')">9</button>
+
+
+</div>
+
+
+
+</div><br>
+
+
+
+
+<div class="row text-info display-4">
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="*"onclick="clickdigits('*')">*</button>
+
+
+</div>
+
+<div class="col-4">
+
+
+	<button class="border-0 bg-light"value="0"onclick="clickdigits('0')">0</button>
+
+
+</div>
+
+
+<div class="col-4">
+
+	<button class="border-0 bg-light"value="#"onclick="clickdigits('#')">#</button>
+
+
+</div>
+
+</div><br>
+
+<button class="fa fa-phone mx-auto bg-success"id="dialbuttonp2"></button>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card hide"id="choosesimpagep2">
+
+
+
+	<div class="card shadow mx-auto hide"id="simboxp2">
+
+		<div>
+choose SIM for this call
+
+<button class="card shadow mx-auto"value="MTN NG"id="siminbox1p2"onclick="dialnump2(1),startp2()"onclick="start1p2()">
+	<span class="fa fa-signal">
+MTN NG</span>
+	</button>
+<button class="card shadow mx-auto"value="glo"id="siminbox2p2"onclick="dialnumglop2()">
+	<span class="fa fa-signal">
+GLO NG</span>
+	</button>
+
+<button class="card shadow mx-auto"value="airtel"id="siminbox3p2"onclick="dialnump2(3)">
+	<span class="fa fa-signal">
+AIRTEL NG</span>
+	</button>
+
+<button class="card shadow mx-auto"id="siminbox4p2"onclick="dialnump2(4)">
+	<span class="fa fa-signal">
+ETISALAT NG</span>
+	</button>
+
+	</div></div>
+
+
+
+
+<div class="card mx-auto shadow hide"id="simoutputp2">
+
+<div class="card mx-auto shadow"id="simoutput1p2">
+
+
+
+</div>
+
+<button class="btn text-success ml-auto"id="okaybuttonp2">ok</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="ringpage" class="card hide shadow">
+<div class="card shadow"id="notificationtopbox">
+
+	<div class="row">
+
+<div class="col-2">
+
+<div class="fa fa-desktop" id="desktop"></div></div>
+
+
+
+
+<div class="col-2">
+
+<div class="fa fa-bell-o" id="ringbar"></div>
+</div>
+
+
+<div class="col-2">
+
+<div class="fa fa-signal" id="networkbar"></div>
+
+</div>
+
+
+
+
+
+
+<div class="col-2">
+
+<div class="fa fa-battery-full" id="batterybar"></div>
+</div>
+
+
+
+<div class="col-2" id="timecol">
+
+<div class="card" id="time"onload="clock()"></div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div id="ringbox">
+<div class=" shadow"  id="userp2"></div>
+
+<br>
+
+<div class="text-center card shadow"id="ringnumber">
+
+
+</div>
+
+
+<h6 class="card shadow text-center"id="ringnetwork">
+airtel
+</h6>
+
+
+
+<div id="div4p2"class="hide">
+
+<div id="hrp2">0</div>
+<div id="minp2"> 0</div>
+<div id="secp2">0</div>
+</div>
+
+<br>
+
+
+<div>
+<button class="fa fa-microphone-slash"id='mutep2'></button>
+
+
+<button class="fa fa-building-o"id='keypadp2'></button>
+
+
+<button class="fa fa-volume-up"id="speakerp2"></button>
+</div>
+
+
+<button class="fa fa-phone-square"id="addcallp2"></button>
+<button class="fa fa-pause"id="pausep2"></button>
+
+
+
+
+
+<button id="pickbutton"class="fa fa-phone text-light shadow"onclick="pick()"></button>
+
+<button id="cutbutton"class="fa fa-phone text-light shadow hide"onclick="stop()"></button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hide bg-info"id="dialpadp2">
+
+	<div>
+
+	<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" stle="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+
+
+</div>
+
+
+
+
+<button class="fa fa-user"  id="user"></button>
+
+
+
+
+
+
+
+<div id="div4p2">
+
+<div id="hrp2">0</div>:
+<div id="minp2"> 0</div>
+<div id="secp2">0</div>
+<div id="sec1p2
+"style="visibility:;">0</div>
+</div>
+
+<br><br>
+<div class="dialpadbox1p2">
+	
+
+	<button class="fa  fa-microphone-slash" id="mute"><br><span id="mutetext"style="font-size:10px">mute</span></button>
+
+
+<button class="fa  fa-building-o"  id="keypad"><br><span style="font-size:10px">keypad</span></button>
+
+<button class="fa  fa-volume-up" id="speaker"><br><span style="font-size:10px"id="speakertext">speaker</span></button>
+
+
+
+
+
+</div>
+<br>
+
+<div id="dialpadbox2p2">
+
+	<button class="fa  fa-phone-square" id="addcall"><br><p style="font-size:10px">Add call</p></button>
+<button class="fa  fa-pause"  id="pause"><br><p style="font-size:10px">Hold</p></button>
+
+</div>
+
+
+<br>
+
+
+	<div><button class="btn btn-danger fa fa-phone shadow" id="lastphonep2"onclick="stop()"></button></div>
+
+
+<!-- <button onclick="stops()"id="stop">stop</button> -->
+<div class="mb-auto"id="dialpadbox3p2">
+
+	<button class="fa  fa-caret-left shadow" id="caret"></button>
+
+
+	<button class="fa  fa-circle-o shadow" id="circle"></button>
+
+	<button class="fa  fa-square-o shadow" id="square"></button>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="div1p2"class="hide">
+
+<div>
+
+<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" style="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+
+</div>
+
+
+
+
+
+
+
+<div>
+
+
+</div>
+
+
+<div id="basicalp2">
+<table id="table1" cols="4" rows="6">
+	<tr>
+<td colspan="4"><input type="text" id="output"> </td>
+	</tr>
+
+<tr>
+
+<td><button class="buttonhover1" value="/" onclick="divides()">&divide;</button></td>
+<td><button class="buttonhover1"  value="*" onclick="multiplys()">&times;</button></td>
+<td><button  class="fa fa-times-circle buttonhover1"onclick="delete2()"></button></td>
+<td><button  id="scientifictoggle"class="fa fa-eye buttonhover1"></button></td>
+
+</tr>
+
+
+<tr>
+<td ><button class="buttonhover"   value="7" onclick="shows7()">7</button></td>
+<td><button class="buttonhover"  value="8" onclick="shows8()">8</button></td>
+<td><button class="buttonhover"  value="9" onclick="shows9()">9</button></td>
+<td><button class="buttonhover1"  value="-" onclick="minuss()">&minus;</button></td>
+
+
+</tr>
+
+<tr>
+<td><button class="buttonhover"  value="4" onclick="shows4()">4</button></td>
+<td><button class="buttonhover"  value="5" onclick="shows5()">5</button></td>
+<td><button class="buttonhover"  value="6" onclick="shows6()">6</button></td>
+<td ><button class="buttonhover1" value="+" onclick="adds()">&plus;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td><button class="buttonhover"  value="1" onclick="shows1()">1</button></td>
+<td><button class="buttonhover"  value="2" onclick="shows2()">2</button></td>
+<td><button class="buttonhover"  value="3" onclick="shows3()">3</button></td>
+<td rowspan="2"><button  class="buttonhover2" value="=" onclick="equalss()">&equals;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td  colspan="2"><button class="buttonhover"  value="0" onclick="shows0()">0</button></td>
+<td> <button class="buttonhover" value="." onclick="showdots()"> .</button></td>
+
+</tr>
+
+
+
+</table>
+</div>
+
+
+
+
+<table id="table2"class="hide"cols="5" rows="7">
+	<tr>
+<td colspan="5"><input type="text" id="output1"></td>
+	</tr>
+
+<tr>
+<td ><button class="buttonhover1">sin</button></td>
+<td><button class="buttonhover1">cos</button></td>
+<td><button class="buttonhover1">tan</button></td>
+<td><button class="buttonhover1">log</button></td>
+<td ><button  class="fa fa-times-circle buttonhover1"onclick="delete1()"></button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover1" value="/" onclick="divide()">&divide;</button></td>
+<td><button class="buttonhover1" value="*" onclick="multiply()">&times;</button></td>
+<td><button class="buttonhover1" value="-" onclick="minus()">&minus;</button></td>
+<td><button class="buttonhover1" value="+" onclick="add()">&plus;</button></td>
+<td><button class="buttonhover1">ln</button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover" value="7" onclick="show7()">7</button></td>
+<td><button class="buttonhover" value="8" onclick="show8()">8</button></td>
+<td><button class="buttonhover"  value="9" onclick="show9()">9</button></td>
+<td><button class="buttonhover1"  value="(" onclick="showbracket()">(</button></td>
+<td><button class="buttonhover1"  value=")" onclick="showbracket1()">)</button></td>
+
+
+</tr>
+
+
+
+
+
+<tr>
+<td ><button class="buttonhover"  value="4" onclick="show4()">4</button></td>
+<td><button class="buttonhover"  value="5" onclick="show5()">5</button></td>
+<td><button class="buttonhover"  value="6" onclick="show6()">6</button></td>
+<td><button class="buttonhover1">&radic;</button></td>
+<td><button class="buttonhover1">i</button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover"  value="1" onclick="show1()">1</button></td>
+<td><button class="buttonhover"  value="2" onclick="show2()">2</button></td>
+<td><button class="buttonhover" value="3" onclick="show3()">3</button></td>
+<td><button class="buttonhover1">^</button></td>
+<td><button class="buttonhover1 value="Math.PI" onclick="showpi()"">&pi;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td colspan="2"><button class="buttonhover" value="0" onclick="show0()">0</button></td>
+<td><button class="buttonhover" value="." onclick="showdot()">.</button></td>
+<td><button class="buttonhover1">e</button></td>
+<td><button class="buttonhover2" value="=" onclick="equals()">&equals;</button></td>
+
+
+</tr>
+
+
+
+<!-- <button id="scientifictoggle"class="fa fa-eye buttonhover1";>
+ -->
+</table>
+
+
+<div>
+
+	<div class="mt-auto">
+	<button class="fa  fa-caret-left" id="caret1"></button>
+
+	
+<button class="fa  fa-square-o shadow" id="square1"></button>
+
+<button class="fa  fa-circle-o" id="circle1"></button>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hide"id="contactcontainerp2">
+<div id="uppericon">
+
+
+<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" stle="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+</div>
+
+	<div  id="searchcontainer">
+<div id="oldsearchcontainer">
+
+<button class="fa  fa-reorder" id="reorder"></button>
+<button id="contact">Contacts</button>
+
+<button class="fa  fa-search"  id="search"></button>
+<button class="fa  fa-ellipsis-v"  id="ellipsis"></button>
+
+</div>
+
+<div id="searchbox"class="hide">
+<span class="fa fa-arrow-left"id="backtooldsearch"></span>
+<input type="text"class="text-white shadow" placeholder="search contact">
+</div>
+
+
+</div>
+<div id="plusdiv">
+<button class="fa  fa-plus" id="plus"></button>
+
+
+</div>
+
+<div id="lowericon">
+	<button class="fa  fa-caret-left" id="caretc"></button>
+<button class="fa  fa-circle-o" id="circlec"></button>
+
+	
+<button class="fa  fa-square-o shadow" id="squarec"></button>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- <button onclick="stopfak()">red</button>
+ -->
+<div  class="card mx-auto" id="homebuttonbox">
+
+	<div class="row">
+		<div class="col-4">
+	<button class="btn"><span class="fa fa-caret-square-o-left"id="backhome"></span></button></div>
+	<div class="col-4">
+<button  class="card mx-auto shadow" id="homebuttonp2">
+
+</button></div>
+
+
+<div class="col-4">
+	<div class="card shadow"id="menubox">
+	<button class="btn  shadow"id="menup2">menu
+
+</button></div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>	
+
+

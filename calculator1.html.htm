@@ -1,0 +1,246 @@
+<html>
+<head>
+<title>
+
+</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="calculator1.css">
+
+
+
+
+<body>
+<div id="div1"class="hide">
+
+
+<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" style="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+
+
+
+
+<div>
+
+
+
+
+
+<div >
+
+
+</div>
+<table id="table1" cols="4" rows="6">
+	<tr>
+<td colspan="4"><input type="text" id="output"> </td>
+	</tr>
+
+<tr>
+
+<td><button class="buttonhover1" value="/" onclick="divides()">&divide;</button></td>
+<td><button class="buttonhover1"  value="*" onclick="multiplys()">&times;</button></td>
+<td colspan="2"><button class="buttonhover1" class="fa fa-times-circle";></button></td>
+
+</tr>
+
+
+<tr>
+<td ><button class="buttonhover"   value="7" onclick="shows7()">7</button></td>
+<td><button class="buttonhover"  value="8" onclick="shows8()">8</button></td>
+<td><button class="buttonhover"  value="9" onclick="shows9()">9</button></td>
+<td><button class="buttonhover1"  value="-" onclick="minuss()">&minus;</button></td>
+
+
+</tr>
+
+<tr>
+<td><button class="buttonhover"  value="4" onclick="shows4()">4</button></td>
+<td><button class="buttonhover"  value="5" onclick="shows5()">5</button></td>
+<td><button class="buttonhover"  value="6" onclick="shows6()">6</button></td>
+<td ><button class="buttonhover1" value="+" onclick="adds()">&plus;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td><button class="buttonhover"  value="1" onclick="shows1()">1</button></td>
+<td><button class="buttonhover"  value="2" onclick="shows2()">2</button></td>
+<td><button class="buttonhover"  value="3" onclick="shows3()">3</button></td>
+<td rowspan="2"><button  class="buttonhover2" value="=" onclick="equalss()">&equals;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td  colspan="2"><button class="buttonhover"  value="0" onclick="shows0()">0</button></td>
+<td> <button class="buttonhover" value="." onclick="showdots()"> .</button></td>
+
+</tr>
+
+
+
+</table>
+</div>
+
+
+<div>
+	<button class="fa  fa-caret-left" id="caret"></button>
+<button class="fa  fa-circle-o" id="circle"></button>
+
+	
+<button class="fa  fa-square-o shadow" id="square"></button>
+
+
+
+</div>
+
+</div>
+
+
+
+
+<div id="div1" style="margin-left:40px;">
+
+
+<button class="fa  fa-phone" id="phone"></button>
+<button class="fa  fa-facebook"  id="facebook"></button>
+<button class="fa  fa-whatsapp"  id="whatsapp"></button>
+<button class="fa  fa-image"  id="image"></button>
+<button class="fa  fa-instagram"  id="instagram"></button>
+
+<button class="fa  fa-signal"  id="signal" stle="width:2px; height:2px"></button>
+<button class="fa  fa-signal"  id="signal1"></button>
+
+
+<button class="fa  fa-battery-2"  id="battery"></button>
+
+
+
+
+<div>
+
+
+
+
+
+<div >
+
+
+</div>
+<table id="table2" cols="5" rows="7">
+	<tr>
+<td colspan="5"><input type="text" id="output1"></td>
+	</tr>
+
+<tr>
+<td ><button class="buttonhover1">sin</button></td>
+<td><button class="buttonhover1">cos</button></td>
+<td><button class="buttonhover1">tan</button></td>
+<td><button class="buttonhover1">log</button></td>
+<td ><button class="buttonhover1" class="fa fa-times-circle";></button></td>
+
+
+</tr>
+
+
+<tr>
+<td ><button class="buttonhover1" value="/" onclick="divide()">&divide;</button></td>
+<td><button class="buttonhover1" value="*" onclick="multiply()">&times;</button></td>
+<td><button class="buttonhover1" value="-" onclick="minus()">&minus;</button></td>
+<td><button class="buttonhover1" value="+" onclick="add()">&plus;</button></td>
+<td><button class="buttonhover1">ln</button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover" value="7" onclick="show7()">7</button></td>
+<td><button class="buttonhover" value="8" onclick="show8()">8</button></td>
+<td><button class="buttonhover"  value="9" onclick="show9()">9</button></td>
+<td><button class="buttonhover1"  value="(" onclick="showbracket()">(</button></td>
+<td><button class="buttonhover1"  value=")" onclick="showbracket1()">)</button></td>
+
+
+</tr>
+
+
+
+
+
+<tr>
+<td ><button class="buttonhover"  value="4" onclick="show4()">4</button></td>
+<td><button class="buttonhover"  value="5" onclick="show5()">5</button></td>
+<td><button class="buttonhover"  value="6" onclick="show6()">6</button></td>
+<td><button class="buttonhover1">&radic;</button></td>
+<td><button class="buttonhover1">i</button></td>
+
+
+</tr>
+
+
+
+<tr>
+<td ><button class="buttonhover"  value="1" onclick="show1()">1</button></td>
+<td><button class="buttonhover"  value="2" onclick="show2()">2</button></td>
+<td><button class="buttonhover" value="3" onclick="show3()">3</button></td>
+<td><button class="buttonhover1">^</button></td>
+<td><button class="buttonhover1 value="Math.PI" onclick="showpi()"">&pi;</button></td>
+
+
+</tr>
+
+
+<tr>
+<td colspan="2"><button class="buttonhover" value="0" onclick="show0()">0</button></td>
+<td><button class="buttonhover" value="." onclick="showdot()">.</button></td>
+<td><button class="buttonhover1">e</button></td>
+<td><button class="buttonhover2" value="=" onclick="equals()">&equals;</button></td>
+
+
+</tr>
+
+
+
+
+</table>
+</div>
+
+
+<div>
+	
+
+
+	
+	<button class="fa  fa-caret-left" id="caret"></button>
+<button class="fa  fa-circle-o" id="circle"></button>
+
+
+<button class="fa  fa-square-o" id="square"></button>
+
+
+</div>
+
+</div>
+
+
+</body>
+<script type="text/javascript" src="calculator1.js"></script>
+</head>
+
+</html>
